@@ -6,7 +6,6 @@ async function onsignup(event){
             Email: event.target.useremail.value,
             Phone: event.target.phonenumber.value,
             Password: event.target.password.value,
-            userId: 1
         }
         
         //let postResponse = axios.post('http://3.6.101.169:4000/users/signup',obj)
